@@ -7,7 +7,7 @@ const SearchBox = (props) => {
                 type="text"
                 placeholder='Type to search....'
                 value={searchValue}
-                onChange={(e) => { props.setSearchValue(e.target.value) }}
+                onChange={(e) => props.setSearchValue(e.target.value)}
             />
         </div>
     )

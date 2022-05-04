@@ -1,11 +1,9 @@
-import React from 'react'
-
 const SearchBox = (props) => {
     const { searchValue } = props
     return (
-        <div className='col col-sm-4'>
+        <div className='search-box'>
+
             <input
-                className="form-control"
                 type="text"
                 placeholder='Type to search....'
                 value={searchValue}
